@@ -1,2 +1,2 @@
 # IAMATinyCoder.github.io
-Personal Portfolio
+Check out my personal portfolio @ [IAMATinyCoder.github.io](https://IAMATinyCoder.github.io)!
