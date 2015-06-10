@@ -11,8 +11,9 @@ nav .brand-logo {
   color: #444;
 }
 
-#menuLinks a:hover, #mobile-demo a:hover, #submenuToggle:hover {
-  background-color: #bbdefb
+#menuLinks a:hover, #mobile-demo a:hover {
+  background-color: #e57373;
+  color: #eeeeee !important;
 }
 
 p {
@@ -36,28 +37,6 @@ p {
 .parallax-container .section {
     width: 100%;
 }
-.parallax img {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  transform: translateX(-50%);
-}
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 
 .icon-block {
   padding: 0 15px;
