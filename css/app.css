@@ -28,6 +28,23 @@ p {
     margin: 0;
 }
 
+.card.small .card-image {
+    height: 200px;
+}
+
+.card.small .card-content {
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+.card .card-content .card-title {
+    line-height: 24px;
+}
+
 .parallax-container {
   height: 300px;
   line-height: 0;
@@ -40,6 +57,15 @@ p {
 
 .icon-block {
   padding: 0 15px;
+}
+
+i.right {
+    float: right;
+    margin-left: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px;
 }
 
 footer.page-footer {
